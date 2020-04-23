@@ -1,0 +1,21 @@
+<! DOCTYPE html>
+< html >
+< tubuh >
+	< form  action = " uts.php "  method = " post " >
+		Nama Operator: < br > < masukan  jenis = " text "  nama = " nama di " > < br > < br >
+		Nim: < br > < masukan  jenis = " text "  nama = " nim "  id = " nim " > < br > < br >
+		Nama Wilayah: <br> < select  class = " form-control "  name = " wilayah "  id = " wilayah " >
+								< option  value = " " > Pilih Nama Wilayah </ option >
+								< opsi  nilai = " DKI Jakarta " > DKI Jakarta </ option >
+								< opsi  nilai = " Jawa Barat " > Jawa Barat </ option >
+								< opsi  nilai = " Jawa Tengah " > Jawa Tengah </ option >
+								< option  value = " Banten " > Banten </ option >
+							</ Pilih > < br > < br >
+		Jangka Waktu Positif: < br > < masukan  jenis = " text "  nama = " positif "  id = " positif " > < br > < br >
+		Jangka Waktu Dirawat: < br > < masukan  jenis = " text "  nama = " rawat "  id = " rawat " > < br > < br >
+		Jangka Waktu Sembuh: < br > < masukan  jenis = " text "  nama = " Sembuh "  id = " Sembuh " > < br > < br >
+		Jangka Waktu Meninggal: < br > < masukan  jenis = " text "  nama = " Meninggal "  id = " Meninggal " > < br > < br >
+		< input  type = " kirim " >
+	</ form >
+</ body >
+</ html >

@@ -1,0 +1,39 @@
+no 1
+
+<? php
+
+	$ file = fopen ( "data.txt" , "r +" );
+	
+	$ nama = $ _POST [ 'nama' ];
+	$ nim = $ _POST [ 'nim' ];
+	$ wilayah = $ _POST [ 'wilayah' ];
+	$ positif = $ _POST [ 'positif' ];
+	$ rawat = $ _POST [ 'rawat' ];
+	$ pulih = $ _POST [ 'pulih' ];
+	$ meninggal = $ _POST [ 'meninggal' ];
+
+	fwrite ( $ file , "Data Pemantauan Covid19 wilayah" . $ wilayah . "\ nper" . date ( "dFY" ). "" . date ( "H: i: s" ). "\ n" . $ nama . " / " . $ nim . " \ n \ nPositif | Dirawat | Sembuh | Meninggal \ n " . $ positif . " | " . $ rawat . " | " .$ pulih ."|" . $ meninggal );  
+	
+	fclose ( $ file );
+	echo  "Data Pemantauan Covid19 wilayah" . $ wilayah ;
+	gema  "<br>" ;
+	gema  "per" . tanggal ( "dFY" ). "" . date ( "H: i: s" );
+	gema  "<br>" ;
+	echo   $ nama . "/" . $ nim ;
+	gema  "<br>" ;
+	gema  "<br>" ;
+	gema  "<lebar tabel = 500 batas = 1>
+				<tr>
+				<td> Positif </td>
+				<td> Dirawat </td>
+				<td> Sembuh </td>
+				<td> Meninggal </td>
+				</tr>
+				<tr>
+				<td> " . $ positif . " </td>
+				<td> " . $ rawat . " </td>
+				<td> " . $ pulih . " </td>
+				<td> " . $ meninggal . " </td>
+				</tr>
+				</table> " ;
+ ?>

@@ -1,0 +1,8 @@
+no 2
+
+Data Pemantauan Covid19 wilayah Jawa Barat
+per 23-April-2020 12:14:33
+Ade Badru ZAman / 171011402530
+
+Positif | Dirawat | Sembuh | Meninggal
+2902 | 1769 | 206 | 257
